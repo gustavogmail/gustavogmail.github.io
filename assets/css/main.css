@@ -597,8 +597,10 @@
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: #CFD;
 		color: #39454b;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
 		padding: 2em;
 	}
 
