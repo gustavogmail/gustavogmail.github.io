@@ -1,0 +1,44 @@
+@import "variables";
+
+.footerContainer {
+    text-align: center;
+    margin-top: 10%;
+
+    i {
+        font-size: 60px;
+        color: $eerieBlack;
+    }
+}
+
+.footer {
+    min-width: 100%;
+    min-height: 220px;
+    border-top: solid 1px $black;
+    text-align: center;
+}
+
+.footerSection {
+    text-align: left;
+    min-height: 180px;
+
+    i {
+        font-size: 20px;
+    }
+}
+
+.submenuList {
+    list-style-type: none;
+}
+
+.emailForm {
+    input {
+        width: 80%;
+        border: none;
+        border-bottom: solid 1px;
+    }
+
+    button {
+        background-color: white;
+        border: none;
+    }
+}
