@@ -1,0 +1,76 @@
+@import "variables";
+
+.firstSection {
+    display: none;
+    height: 350px;
+    max-width: 1265px;
+    background-color: $almond;
+    font-size: 10px;
+}
+
+.textOne {
+    position: relative;
+    height: 75%;
+    margin-top: 5%;
+}
+
+.middleColumn, .lastColumn {
+    height: 100%;
+}
+
+.bannerOne {
+    position: relative;
+    margin-top: 15%;
+}
+
+.bannerInformation {
+    background-color: $almond;
+}
+
+.imgBanner {
+    position: relative;
+    min-height: 260px;
+    background-image: url("https://picsum.photos/id/171/311/260");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txtBanner {
+    position: relative;
+    height: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.bannerTile {
+    font-weight: bold;
+    font-size: 13px;
+}
+  
+.imgSmallBanner {
+    position: relative;
+    min-height: 124px;
+    background-image: url("https://picsum.photos/id/171/291/164");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstSectionMobile {
+    background-color: $almond; 
+}
+
+@media #{$breakpoint-medium} { 
+    .firstSection {
+        display: flex;
+    }
+
+    .firstSectionMobile {
+        display: none;
+    }
+
+    .textOne {
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+}

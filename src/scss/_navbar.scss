@@ -1,0 +1,67 @@
+@import "variables";
+
+.header {
+    display: flex;
+    background-color: $eerieBlack;
+    color: $cultured;
+    padding-bottom: 5px;
+}
+
+.logo {
+    display: none;
+    font-size: 34px;
+    padding: 0.5em 2.5em 0.5em;
+}
+
+.navigation {
+    display: none;
+    text-align: center;
+
+    @media #{$breakpoint-navigation} {
+        font-size: 10px;
+    }    
+}
+
+.menuItem {
+    text-decoration: none;
+    color: white;
+}
+
+.options {
+    display: none;
+    text-align: end;
+    padding-right: 2.5em;
+}
+
+.logoMobile {
+    text-align: end;
+}
+
+.fas {
+    color: $white;
+    &.fa-paw {
+        font-size: 34px;
+    }
+}
+
+@media #{$breakpoint-medium} {
+    .logo {
+        display: block;
+    }
+
+    .navigation {
+        display: block;
+    }
+    
+    .options {
+        display: block;
+    }
+
+    .textMobile {
+        display: none;
+    }
+
+    .logoMobile {
+        display: none;
+    }
+}
