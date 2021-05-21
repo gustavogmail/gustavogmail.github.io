@@ -30,7 +30,7 @@
 .imgBanner {
     position: relative;
     min-height: 260px;
-    background-image: url("https://picsum.photos/id/171/311/260");
+    background-image: url("https://picsum.photos/id/171/350/260");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,7 +51,7 @@
 .imgSmallBanner {
     position: relative;
     min-height: 124px;
-    background-image: url("https://picsum.photos/id/171/291/164");
+    background-image: url("https://picsum.photos/id/171/311/124");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,5 +72,9 @@
     .textOne {
         margin-left: 5%;
         margin-top: 15%;
+    }
+
+    .imgSmallBanner {
+        background-image: url("https://picsum.photos/id/171/291/164");
     }
 }
