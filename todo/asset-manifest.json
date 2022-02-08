@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alexdevero/react-hooks-todo-list-app-ts/static/css/main.14ea48b3.chunk.css",
+    "main.js": "/alexdevero/react-hooks-todo-list-app-ts/static/js/main.fb881db1.chunk.js",
+    "main.js.map": "/alexdevero/react-hooks-todo-list-app-ts/static/js/main.fb881db1.chunk.js.map",
+    "runtime-main.js": "/alexdevero/react-hooks-todo-list-app-ts/static/js/runtime-main.73220504.js",
+    "runtime-main.js.map": "/alexdevero/react-hooks-todo-list-app-ts/static/js/runtime-main.73220504.js.map",
+    "static/js/2.2daf5f13.chunk.js": "/alexdevero/react-hooks-todo-list-app-ts/static/js/2.2daf5f13.chunk.js",
+    "static/js/2.2daf5f13.chunk.js.map": "/alexdevero/react-hooks-todo-list-app-ts/static/js/2.2daf5f13.chunk.js.map",
+    "index.html": "/alexdevero/react-hooks-todo-list-app-ts/index.html",
+    "precache-manifest.434848b338e3ae8476b990fc8396e089.js": "/alexdevero/react-hooks-todo-list-app-ts/precache-manifest.434848b338e3ae8476b990fc8396e089.js",
+    "service-worker.js": "/alexdevero/react-hooks-todo-list-app-ts/service-worker.js",
+    "static/css/main.14ea48b3.chunk.css.map": "/alexdevero/react-hooks-todo-list-app-ts/static/css/main.14ea48b3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73220504.js",
+    "static/js/2.2daf5f13.chunk.js",
+    "static/css/main.14ea48b3.chunk.css",
+    "static/js/main.fb881db1.chunk.js"
+  ]
+}
